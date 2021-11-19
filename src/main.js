@@ -21,6 +21,29 @@ import 'lib-flexible/flexible.js'
 
 // filters
 import './filters'
+
+// tyh的加入
+import { Form, Field, Icon, Divider, Button, Image as VanImage,  DropdownMenu, DropdownItem, RadioGroup, Radio, 
+  DatetimePicker, Popup, Checkbox, CheckboxGroup, Picker, Cell, CellGroup, Uploader, ActionSheet} from 'vant'
+Vue.use(VanImage)
+Vue.use(Form)
+Vue.use(Field)
+Vue.use(Icon)
+Vue.use(Divider)
+Vue.use(Button)
+Vue.use(DropdownMenu)
+Vue.use(DropdownItem)
+Vue.use(Radio)
+Vue.use(RadioGroup)
+Vue.use(DatetimePicker)
+Vue.use(Popup)
+Vue.use(Checkbox)
+Vue.use(CheckboxGroup)
+Vue.use(Picker)
+Vue.use(Cell)
+Vue.use(CellGroup)
+Vue.use(Uploader)
+Vue.use(ActionSheet)
 Vue.config.productionTip = false
 
 new Vue({
